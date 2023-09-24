@@ -26,4 +26,6 @@ jobs:
     - run: | 
         touch .env
         echo "${{ secrets.PROD_ENV_FILE }}" > .env
-    - run: pm2 restart BackendAPI
+    - run: |
+        export PATH=$PATH:/home/ubuntu/.nvm/versions/node/v16.20.2/bin
+        pm2 restart BackendAPI
