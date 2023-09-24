@@ -1,0 +1,23 @@
+{
+  "name": "svps-server",
+  "version": "1.0.0",
+  "description": "Official server side repo of SVPS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svpstfg/svps-server.git"
+  },
+  "author": "Hrit Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svpstfg/svps-server/issues"
+  },
+  "homepage": "https://github.com/svpstfg/svps-server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
