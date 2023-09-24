@@ -43,7 +43,7 @@ const addNotice = async(req,res)=>{
 
                                 const attachmentId = rand + nid.substring(0,16)
                                 const attachmentTitle = req.files[i].originalname
-                                const attachmentUrl = "https://notice-svps-demo.s3.ap-south-1.amazonaws.com/" + attachmentId
+                                const attachmentUrl = "https://svps-storage.s3.ap-south-1.amazonaws.com/" + attachmentId
 
                                 attachments.push({ attachmentId, attachmentTitle, attachmentUrl})
 

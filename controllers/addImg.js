@@ -34,7 +34,7 @@ const addImg = async(req,res)=>{
                         const addedSuccessfully =[]
                         for(let i=0;i<numberOfFiles; i++){
                                 const imgId = "gallery_"+ randomStr.generateRandomString(32)
-                                const imgUrl = "https://notice-svps-demo.s3.ap-south-1.amazonaws.com/" + imgId
+                                const imgUrl = "https://svps-storage.s3.ap-south-1.amazonaws.com/" + imgId
 
                                 //Uploading image to S3
                                 try{
