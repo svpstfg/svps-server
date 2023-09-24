@@ -1,23 +1,26 @@
 {
-  "name": "svps-server",
+  "name": "skyview_august",
   "version": "1.0.0",
-  "description": "Official server side repo of SVPS",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/svpstfg/svps-server.git"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Hrit Saha",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/svpstfg/svps-server/issues"
-  },
-  "homepage": "https://github.com/svpstfg/svps-server#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "@aws-sdk/client-s3": "^3.382.0",
+    "@aws-sdk/s3-request-presigner": "^3.382.0",
+    "@hapi/joi": "^17.1.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
   }
 }
