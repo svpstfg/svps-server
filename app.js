@@ -28,7 +28,7 @@ app.use(cors())
 
 //Test Route
 app.get("/api",(req, res)=>{
-        res.status(200).send("SKYVIEW SEPTEMBER || Saturday - Checking workflow")
+        res.status(200).send("SKYVIEW Backend Server | September 2023")
 })
 
 
